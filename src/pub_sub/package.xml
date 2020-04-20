@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>pub_sub</name>
+  <version>0.0.0</version>
+  <description>The pub_sub package</description>
+
+  <maintainer email="lorenzo@todo.todo">lorenzo</maintainer>
+  <license>TODO</license>
+<!--queste dipendenze sono standard--> 
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  
+<!--si aggiunge la dipendenza alla generazione dei messaggi e a std_msgs-->
+
+  <build_depend>std_msgs</build_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+
+  <export>
+  </export>
+</package>
